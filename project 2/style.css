@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.container {
+  width: 100%;
+  background-image: url("assets/pexels-maxyne-barcel-10402282 1.png");
+  box-shadow: inset 0 0 0 1000px rgba(8, 8, 59, 0.7);
+  height: 522px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
+.navbar div {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-overflow: hidden;
+}
+.navbar div img {
+  position: relative;
+  top: 10px;
+  left: -60px;
+  inline-size: 85px;
+}
+.navbar div ul {
+  position: relative;
+  top: 0;
+  left: -50px;
+  display: inline;
+  font-family: Arial;
+}
+.navbar div li {
+  position: relative;
+  top: -5px;
+  left: 40px;
+  display: inline-block;
+  word-spacing: 0px;
+  padding: 18px;
+  border-radius: 15px;
+  font-family: Helvetica;
+  color: gold;
+  font-size: 8px;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-overflow: 100%;
+}
+.navbar div li:hover {
+  opacity: 1;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px gold;
+}
+.navbar div button {
+  padding: 5px;
+  background-color: #ff3f5b;
+  position: relative;
+  top: -5px;
+  left: 20px;
+  color: white;
+  width: 80px;
+  border: transparent;
+}
+.navbar div button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #ff3f5b;
+  border: 2px solid #ff3f5b;
+  box-shadow: 0px 0px 10px #ff3f5b;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  display: inline-block;
+  width: 86%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+div .hero-heading {
+  display: inline-block;
+  text-align: center;
+  width: 85%;
+  position: relative;
+  top: 50px;
+  left: 0px;
+  color: gold;
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero button {
+  position: relative;
+  top: 60px;
+  border: transparent;
+  background-color: #ff3f5b;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 45px;
+  font-size: 15px;
+}
+.hero button:hover {
+  background-color: white;
+  font-weight: bold;
+  color: #ff3f5b;
+  border: 2px solid #ff3f5b;
+  box-shadow: 0px 0px 10px #ff3f5b;
+}
+.hero div img {
+  inline-size: 90px;
+  position: relative;
+  top: 80px;
+  left: 250px;
+}
